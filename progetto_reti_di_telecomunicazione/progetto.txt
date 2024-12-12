@@ -1,0 +1,32 @@
+
+Tabelle di routing iniziali
+Nodo A: [A: 0 (via -), B: 2 (via B), C: 4 (via C), E: 1 (via E)]
+Nodo B: [A: 2 (via A), B: 0 (via -), C: 1 (via C), D: 4 (via D), E: 7 (via E)]
+Nodo C: [A: 4 (via A), B: 1 (via B), C: 0 (via -)]
+Nodo D: [B: 4 (via B), D: 0 (via -), E: 2 (via E)]
+Nodo E: [A: 1 (via A), B: 7 (via B), D: 2 (via D), E: 0 (via -)]
+
+Iterazione 1:
+
+Stato dopo l'iterazione 1
+Nodo A: [A: 0 (via -), B: 2 (via B), C: 3 (via B), D: 3 (via B), E: 1 (via E)]
+Nodo B: [A: 2 (via A), B: 0 (via -), C: 1 (via C), D: 4 (via D), E: 3 (via A)]
+Nodo C: [A: 3 (via A), B: 1 (via B), C: 0 (via -), D: 5 (via A), E: 4 (via A)]
+Nodo D: [A: 3 (via B), B: 4 (via B), C: 5 (via B), D: 0 (via -), E: 2 (via E)]
+Nodo E: [A: 1 (via A), B: 3 (via A), C: 4 (via A), D: 2 (via D), E: 0 (via -)]
+
+Iterazione 2:
+
+Stato dopo l'iterazione 2
+Nodo A: [A: 0 (via -), B: 2 (via B), C: 3 (via B), D: 3 (via B), E: 1 (via E)]
+Nodo B: [A: 2 (via A), B: 0 (via -), C: 1 (via C), D: 4 (via D), E: 3 (via A)]
+Nodo C: [A: 3 (via A), B: 1 (via B), C: 0 (via -), D: 5 (via A), E: 4 (via A)]
+Nodo D: [A: 3 (via B), B: 4 (via B), C: 5 (via B), D: 0 (via -), E: 2 (via E)]
+Nodo E: [A: 1 (via A), B: 3 (via A), C: 4 (via A), D: 2 (via D), E: 0 (via -)]
+
+Convergenza raggiunta - Tabelle finali
+Nodo A: [A: 0 (via -), B: 2 (via B), C: 3 (via B), D: 3 (via B), E: 1 (via E)]
+Nodo B: [A: 2 (via A), B: 0 (via -), C: 1 (via C), D: 4 (via D), E: 3 (via A)]
+Nodo C: [A: 3 (via A), B: 1 (via B), C: 0 (via -), D: 5 (via A), E: 4 (via A)]
+Nodo D: [A: 3 (via B), B: 4 (via B), C: 5 (via B), D: 0 (via -), E: 2 (via E)]
+Nodo E: [A: 1 (via A), B: 3 (via A), C: 4 (via A), D: 2 (via D), E: 0 (via -)]
